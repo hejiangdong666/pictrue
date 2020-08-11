@@ -52,8 +52,10 @@
     "@dcloudio/uni-quickapp-native": "^2.0.0-27920200618002",
     "@dcloudio/uni-quickapp-webview": "^2.0.0-27920200618002",
     "@dcloudio/uni-stat": "^2.0.0-27920200618002",
+    "@dcloudio/uni-ui": "^1.2.3",
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
+    "moment": "^2.27.0",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.11",
     "vuex": "^3.2.0"
@@ -76,7 +78,9 @@
     "jest": "^25.4.0",
     "mini-types": "*",
     "miniprogram-api-typings": "*",
+    "node-sass": "^4.14.1",
     "postcss-comment": "^2.0.0",
+    "sass-loader": "^7.3.1",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
@@ -85,5 +89,9 @@
   ],
   "uni-app": {
     "scripts": {}
-  }
+  },
+  "description": "## Project setup ``` yarn install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
 }
